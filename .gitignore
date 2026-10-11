@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LJ Speech dataset
+/LJSpeech-1.1/
+
+# Precomputed dataset splits, features, and statistics
+/mlp_data/
+
+# Model checkpoints and trained weights
+/generator_v1
+/*.pt
+/*.pth
+/*.ckpt
+/svr_model.npz
+
+# Generated audio
+/copysynth.wav
+/mel_test_out.wav
+/mlp_test.wav
+/mean_test.wav
+/s2s_test.wav
+/svr_test.wav
+/out.wav
+
+# Generated plots
+/mlp_loss.png
+/s2s_loss.png
+/s2s_align.png
+/s2s_alignment.png
